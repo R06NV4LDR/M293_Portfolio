@@ -1,0 +1,251 @@
+[
+    {
+        "id": 1,
+        "title": "M293 | Kochrezept | Kochburg",
+        "description": "A simple one page Website for a recipe. It was built using HTML and CSS.",
+        "technologies": [
+            "HTML",
+            "CSS"
+        ],
+        "image": "assets/img/projects/Kochburg.png",
+        "altText": "Kochburg"
+    },
+    {
+        "id": 2,
+        "title": "M293 | Mediensammlung",
+        "description": "",
+        "technologies": [
+            "HTML",
+            "CSS"
+        ],
+        "image": "assets/img/projects/ProductRater.png",
+        "altText": "Product Rater"
+    },
+    {
+        "id": 3,
+        "title": "A 2 bonZai",
+        "description": "Description of Project 3.",
+        "technologies": [
+            "HTML",
+            "CSS"
+        ],
+        "image": "assets/img/projects/A 2 BonZai A - Z about Bonsai.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 4,
+        "title": "Product Rater",
+        "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "technologies": [
+            "React-Native",
+            "Expo",
+            "Firestore"
+        ],
+        "image": "assets/img/projects/ProductRater.png",
+        "altText": "Product Rater"
+    },
+    {
+        "id": 5,
+        "title": "Project 1",
+        "description": "This is a detailed description of Project 1. It was built using HTML, CSS, and JavaScript.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 6,
+        "title": "Product Rater",
+        "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ],
+        "image": "assets/img/projects/ProductRater.png",
+        "altText": "Product Rater"
+    },
+    {
+        "id": 7,
+        "title": "Project 3",
+        "description": "Description of Project 3.",
+        "technologies": [
+            "React",
+            "Redux",
+            "Firebase"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 8,
+        "title": "Project 4",
+        "description": "Description of Project 4.",
+        "technologies": [
+            "Vue",
+            "Vuex",
+            "Axios"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 9,
+        "title": "Project 1",
+        "description": "This is a detailed description of Project 1. It was built using HTML, CSS, and JavaScript.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 10,
+        "title": "Product Rater",
+        "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ],
+        "image": "assets/img/projects/ProductRater.png",
+        "altText": "Product Rater"
+    },
+    {
+        "id": 11,
+        "title": "Project 3",
+        "description": "Description of Project 3.",
+        "technologies": [
+            "React",
+            "Redux",
+            "Firebase"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 12,
+        "title": "Project 4",
+        "description": "Description of Project 4.",
+        "technologies": [
+            "Vue",
+            "Vuex",
+            "Axios"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 13,
+        "title": "Product Rater",
+        "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ],
+        "image": "assets/img/projects/ProductRater.png",
+        "altText": "Product Rater"
+    },
+    {
+        "id": 14,
+        "title": "Project 3",
+        "description": "Description of Project 3.",
+        "technologies": [
+            "React",
+            "Redux",
+            "Firebase"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 15,
+        "title": "Project 4",
+        "description": "Description of Project 4.",
+        "technologies": [
+            "Vue",
+            "Vuex",
+            "Axios"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 16,
+        "title": "Product Rater",
+        "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ],
+        "image": "assets/img/projects/ProductRater.png",
+        "altText": "Product Rater"
+    },
+    {
+        "id": 17,
+        "title": "Project 3",
+        "description": "Description of Project 3.",
+        "technologies": [
+            "React",
+            "Redux",
+            "Firebase"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 18,
+        "title": "Project 4",
+        "description": "Description of Project 4.",
+        "technologies": [
+            "Vue",
+            "Vuex",
+            "Axios"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 19,
+        "title": "Product Rater",
+        "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ],
+        "image": "assets/img/projects/ProductRater.png",
+        "altText": "Product Rater"
+    },
+    {
+        "id": 20,
+        "title": "Project 3",
+        "description": "Description of Project 3.",
+        "technologies": [
+            "React",
+            "Redux",
+            "Firebase"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+    {
+        "id": 15,
+        "title": "Project 4",
+        "description": "Description of Project 4.",
+        "technologies": [
+            "Vue",
+            "Vuex",
+            "Axios"
+        ],
+        "image": "assets/img/logos/RB_5_transparent2.png",
+        "altText": "RB_5_transparent2"
+    },
+]
