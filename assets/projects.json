@@ -24,7 +24,7 @@
     {
         "id": 3,
         "title": "A 2 bonZai",
-        "description": "Description of Project 3.",
+        "description": "Website made as a project for BBC. It was built using HTML and CSS",
         "technologies": [
             "HTML",
             "CSS"
@@ -34,19 +34,7 @@
     },
     {
         "id": 4,
-        "title": "Product Rater",
-        "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
-        "technologies": [
-            "React-Native",
-            "Expo",
-            "Firestore"
-        ],
-        "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater"
-    },
-    {
-        "id": 5,
-        "title": "Project 1",
+        "title": "M293 Portfolio",
         "description": "This is a detailed description of Project 1. It was built using HTML, CSS, and JavaScript.",
         "technologies": [
             "HTML",
@@ -57,13 +45,25 @@
         "altText": "RB_5_transparent2"
     },
     {
-        "id": 6,
-        "title": "Product Rater",
-        "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "id": 5,
+        "title": "Finance App",
+        "description": "Finance App is an application that allows users to add budgets for . It features user authentication and real-time data updates.",
         "technologies": [
             "Node.js",
             "Express",
             "MongoDB"
+        ],
+        "image": "assets/img/projects/ProductRater.png",
+        "altText": "Product Rater"
+    },
+    {
+        "id": 6,
+        "title": "Product Rater",
+        "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "technologies": [
+            "React-Native",
+            "Expo",
+            "Firestore"
         ],
         "image": "assets/img/projects/ProductRater.png",
         "altText": "Product Rater"
