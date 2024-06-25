@@ -8,53 +8,58 @@
             "CSS"
         ],
         "image": "assets/img/projects/Kochburg.png",
-        "altText": "Kochburg"
+        "altText": "Kochburg Website",
+        "link": "https://r06nv4ldr.github.io/M293_Kochburg/"
     },
     {
         "id": 2,
         "title": "M293 | Mediensammlung",
-        "description": "",
+        "description": "A simple one page Website for a movie collection. It was built using HTML and CSS.",
         "technologies": [
             "HTML",
             "CSS"
         ],
-        "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater"
+        "image": "assets/img/projects/Mediensammlung.png",
+        "altText": "Mediensammlung Website",
+        "link": "https://r06nv4ldr.github.io/M293_Mediensammlung/"
     },
     {
         "id": 3,
         "title": "A 2 bonZai",
-        "description": "Website made as a project for BBC. It was built using HTML and CSS",
+        "description": "Website made as a project for ICT BBC. It was built using HTML and CSS",
         "technologies": [
             "HTML",
             "CSS"
         ],
-        "image": "assets/img/projects/A 2 BonZai A - Z about Bonsai.png",
-        "altText": "RB_5_transparent2"
+        "image": "assets/img/projects/A2BonZai_fullscreen.png",
+        "altText": "A2BonZai_Website",
+        "link": "https://r06nv4ldr.github.io/a2bonzai/"
     },
     {
         "id": 4,
         "title": "M293 Portfolio",
-        "description": "This is a detailed description of Project 1. It was built using HTML, CSS, and JavaScript.",
+        "description": "This is a detailed description of this website you're on right now. It was built using HTML, CSS, and JavaScript.",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "Portfolio Website",
+        "link": "https://r06nv4ldr.github.io/M293_Portfolio/"
     },
     {
         "id": 5,
         "title": "Finance App",
-        "description": "Finance App is an application that allows users to add budgets for . It features user authentication and real-time data updates.",
+        "description": "Finance App is an application that allows users to add budgets for various kinds of expenses. It features user authentication and real-time data updates.",
         "technologies": [
             "Node.js",
             "Express",
             "MongoDB"
         ],
         "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater"
+        "altText": "Finance App",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 6,
@@ -66,7 +71,8 @@
             "Firestore"
         ],
         "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater"
+        "altText": "Product Rater",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 7,
@@ -78,7 +84,8 @@
             "Firebase"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "RB_5_transparent2",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 8,
@@ -90,7 +97,8 @@
             "Axios"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "RB_5_transparent2",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 9,
@@ -102,7 +110,8 @@
             "JavaScript"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "RB_5_transparent2",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 10,
@@ -114,7 +123,8 @@
             "MongoDB"
         ],
         "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater"
+        "altText": "Product Rater",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 11,
@@ -126,7 +136,8 @@
             "Firebase"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "RB_5_transparent2",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 12,
@@ -138,7 +149,8 @@
             "Axios"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "RB_5_transparent2",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 13,
@@ -150,7 +162,8 @@
             "MongoDB"
         ],
         "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater"
+        "altText": "Product Rater",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 14,
@@ -162,7 +175,8 @@
             "Firebase"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "RB_5_transparent2",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 15,
@@ -174,7 +188,8 @@
             "Axios"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "RB_5_transparent2",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 16,
@@ -186,7 +201,8 @@
             "MongoDB"
         ],
         "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater"
+        "altText": "Product Rater",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 17,
@@ -198,7 +214,8 @@
             "Firebase"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "RB_5_transparent2",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 18,
@@ -210,7 +227,8 @@
             "Axios"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "RB_5_transparent2",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 19,
@@ -222,7 +240,8 @@
             "MongoDB"
         ],
         "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater"
+        "altText": "Product Rater",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 20,
@@ -234,7 +253,8 @@
             "Firebase"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "RB_5_transparent2",
+        "link": "https://github.com/R06NV4LDR"
     },
     {
         "id": 15,
@@ -246,6 +266,7 @@
             "Axios"
         ],
         "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2"
+        "altText": "RB_5_transparent2",
+        "link": "https://github.com/R06NV4LDR"
     }
 ]
