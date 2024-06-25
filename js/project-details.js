@@ -1,30 +1,62 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const projectId = new URLSearchParams(window.location.search).get('projectId');
+document.addEventListener('DOMContentLoaded', function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const projectId = Number(urlParams.get('projectId'));
     fetchProjectDetails(projectId);
 });
 
-function fetchProjectDetails(projectId) {
-    // Example: Fetch project details based on projectId
-    // This could be from a JSON file, an API, or a JavaScript object
-    const projectDetails = {
+async function fetchProjectDetails(projectId) {
+    const fallbackProjectDetails = {
         1: {
             title: "Project 1",
             description: "This is a detailed description of Project 1.",
-            technologies: ["HTML", "CSS", "JavaScript"],
-            // Other details
-        },
-        // Add other projects here
+            technologies: [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "image": "assets/img/projects/Kochburg.png",
+            "altText": "Kochburg"
+
+        }
     };
 
-    const project = projectDetails[projectId];
-    if (project) {
-        document.getElementById('projectDetail').innerHTML = `
-            <h1>${project.title}</h1>
-            <p>${project.description}</p>
-            <p>Technologies Used: ${project.technologies.join(', ')}</p>
-            <!-- Add more details as needed -->
-        `;
-    } else {
-        document.getElementById('projectDetail').innerHTML = `<p>Project not found.</p>`;
+    try {
+        const response = await fetch(`./assets/projects.json`);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const projects = await response.json();
+        const project = projects.find(project => project.id === projectId);
+        if (project) {
+            displayProjectDetails(project);
+        } else {
+            document.getElementById('projectDetail').innerHTML = `<p>Project not found.</p>`;
+        }
+    } catch (error) {
+        console.error('Error fetching project details:', error);
+        const project = fallbackProjectDetails[projectId];
+        if (project) {
+            displayProjectDetails(project);
+        } else {
+            document.getElementById('projectDetail').innerHTML = `<p>Error fetching project details.</p>`;
+        }
     }
+}
+
+function displayProjectDetails(project) {
+    document.getElementById('projectDetail').innerHTML = `
+    <section class="home">
+        <div class="project-content">
+            <div class="project-info">
+                <h1>${project.title}</h1>
+                <p>${project.description}</p>
+                <p>Technologies Used: ${project.technologies.join(', ')}</p>
+                <!-- Add more details as needed -->
+            </div>
+            <div class="project-image">
+                <img src="${project.image}" alt="${project.altText}">
+            </div>
+        </div>
+    </section>
+            `;
 }
