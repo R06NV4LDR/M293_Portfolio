@@ -442,7 +442,7 @@ span {
     .bento-item:nth-child(2) {
         grid-column: span 2;
         grid-row: span 1;
-        transition: scale(-5);
+        /* transition: scale(-5); */
     }
 
     .bento-item:nth-child(3) {
@@ -492,14 +492,21 @@ span {
 .project-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    max-width: 100%;
+    /* align-items: flex-start;
+    max-width: 100%; */
 }
 
-.project-info,
+.project-info
+ {
+    flex: 1;
+    order: 1;
+    /* max-width: 50%; */
+}
+
 .project-image {
-    flex: 1; /* Take up half the space */
-    max-width: 50%;
+    flex: 1;
+    order: 2;
+    /* max-width: 50%; */
 }
 
 .project-info {
