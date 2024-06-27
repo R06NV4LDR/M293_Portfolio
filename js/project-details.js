@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
 async function fetchProjectDetails(projectId) {
     const fallbackProjectDetails = {
         1: {
-            title: "Project 1",
-            description: "This is a detailed description of Project 1.",
+            title: "Project Placeholder",
+            description: "This is a detailed description of Project Placeholder.",
             technologies: [
                 "HTML",
                 "CSS",
@@ -47,7 +47,7 @@ function displayProjectDetails(project) {
     // Generate HTML for each image slide
     let slidesHtml = project.images.map(image =>
         `<div class="mySlides fade">
-            <img src="${image.src}" alt="${image.alt}" style="width:100%">
+            <img src="${image.src}" alt="${image.alt}" style="width:50%">
         </div>`
     ).join('');
 
@@ -67,7 +67,7 @@ function displayProjectDetails(project) {
                 <div class="project-info">
                     <h1>${project.title}</h1>
                     <p>${project.description}</p>
-                    <p>Technologies Used: ${project.technologies.join(', ')}</p>
+                    <h3>Technologies Used:</h3> <p>${project.technologies.join(', ')}</p>
                 </div>
             </div>
         </section>
