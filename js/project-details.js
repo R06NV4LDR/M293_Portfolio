@@ -44,6 +44,12 @@ async function fetchProjectDetails(projectId) {
 }
 
 function displayProjectDetails(project) {
+    let imagesHtml = project.images.map(image =>
+        `<div class="project-image">
+            <img src="${image.src}" alt="${image.alt}">
+        </div>`
+    ).join('');
+
     document.getElementById('projectDetail').innerHTML = `
     <section class="home">
         <div class="project-content">
@@ -54,7 +60,7 @@ function displayProjectDetails(project) {
                 <!-- Add more details as needed -->
             </div>
             <div class="project-image">
-                <img src="${project.image}" alt="${project.altText}">
+                ${imagesHtml}
             </div>
         </div>
     </section>
