@@ -105,8 +105,24 @@
         ],
         "images": [
             {
-                "src": "assets/img/projects/ProductRater.png",
-                "alt": "Product Rater"
+                "src": "assets/img/projects/ProductRater_HomeScreen.png",
+                "alt": "Product Rater Home Screen"
+            },
+            {
+                "src": "assets/img/projects/ProductRater_Categories.png",
+                "alt": "Product Rater Categories"
+            },
+            {
+                "src": "assets/img/projects/ProductRater_Category.png",
+                "alt": "Product Rater Category"
+            },
+            {
+                "src": "assets/img/projects/ProductRater_ProductDetail.png",
+                "alt": "Product Rater Product Detail"
+            },
+            {
+                "src": "assets/img/projects/ProductRater_Scan.png",
+                "alt": "Product Rater Scanner"
             }
         ]
     },
