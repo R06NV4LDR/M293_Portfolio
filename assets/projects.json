@@ -10,11 +10,11 @@
         ],
         "images": [
             {
-                "image": "assets/img/projects/Kochburg.png",
+                "src": "assets/img/projects/Kochburg.png",
                 "altText": "Kochburg Website"
             },
             {
-                "image": "assets/img/projects/Kochburg.png",
+                "src": "assets/img/projects/Kochburg.png",
                 "altText": "Kochburg Website"
             }
         ]
@@ -30,7 +30,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/projects/Mediensammlung.png",
+                "src": "assets/img/projects/Mediensammlung.png",
                 "altText": "Mediensammlung Website"
             }
         ]
@@ -46,7 +46,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/projects/A2BonZai_fullscreen.png",
+                "src": "assets/img/projects/A2BonZai_fullscreen.png",
                 "altText": "A2BonZai_Website"
             }
         ]
@@ -63,7 +63,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "Portfolio Website"
             }
         ]
@@ -105,7 +105,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/projects/ProductRater.png",
+                "src": "assets/img/projects/ProductRater.png",
                 "altText": "Product Rater"
             }
         ]
@@ -122,7 +122,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -139,7 +139,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -156,7 +156,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -173,7 +173,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -190,7 +190,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -207,7 +207,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -224,7 +224,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -241,7 +241,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -258,7 +258,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -275,7 +275,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -292,7 +292,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -309,7 +309,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -326,7 +326,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -343,7 +343,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
@@ -360,7 +360,7 @@
         ],
         "images": [
             {
-                "image": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/logos/RB_5_transparent2.png",
                 "altText": "RB_5_transparent2"
             }
         ]
