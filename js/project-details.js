@@ -14,9 +14,9 @@ async function fetchProjectDetails(projectId) {
                 "CSS",
                 "JavaScript"
             ],
-            "image": "assets/img/projects/Kochburg.png",
-            "altText": "Kochburg"
-
+            images: [
+                { src: "assets/img/projects/Kochburg.png", alt: "Kochburg" }
+            ]
         }
     };
 
@@ -44,25 +44,58 @@ async function fetchProjectDetails(projectId) {
 }
 
 function displayProjectDetails(project) {
-    let imagesHtml = project.images.map(image =>
-        `<div class="project-image">
-            <img src="${image.src}" alt="${image.alt}">
+    // Generate HTML for each image slide
+    let slidesHtml = project.images.map(image =>
+        `<div class="mySlides fade">
+            <img src="${image.src}" alt="${image.alt}" style="width:100%">
         </div>`
     ).join('');
 
-    document.getElementById('projectDetail').innerHTML = `
-    <section class="home">
-        <div class="project-content">
-            <div class="project-info">
-                <h1>${project.title}</h1>
-                <p>${project.description}</p>
-                <p>Technologies Used: ${project.technologies.join(', ')}</p>
-                <!-- Add more details as needed -->
+    // Add navigation buttons
+    slidesHtml += `
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    `;
+
+    // Insert the slides HTML into the slideshow container
+    document.getElementById('slideshowContainer').innerHTML = slidesHtml;
+
+    // Insert project details
+    document.getElementById('projectDetail').insertAdjacentHTML('afterbegin', `
+        <section class="home">
+            <div class="project-content">
+                <div class="project-info">
+                    <h1>${project.title}</h1>
+                    <p>${project.description}</p>
+                    <p>Technologies Used: ${project.technologies.join(', ')}</p>
+                </div>
             </div>
-            <div class="project-image">
-                ${imagesHtml}
-            </div>
-        </div>
-    </section>
-            `;
+        </section>
+    `);
+
+    // Initialize the slideshow after the slides are inserted into the DOM
+    showSlides(slideIndex);
+}
+
+var slideIndex = 1;
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    if (slides[slideIndex - 1]) {
+        slides[slideIndex - 1].style.display = "block";
+    }
 }
