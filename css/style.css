@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    background: var(--bg-color);
+    background: linear-gradient(45deg, var(--bg-color) 100%, var(--second-bg-color) 0%);
     color: var(--text-color);
 }
 
@@ -388,7 +388,7 @@ span {
     flex-wrap: wrap;
     gap: 5rem;
 }
-
+/* Projects */
 .bento {
     .bento-grid {
         display: grid;
@@ -519,6 +519,8 @@ span {
     height: auto;
 }
 
+/* Project-Detail */
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
@@ -556,4 +558,59 @@ span {
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+}
+
+/* Contact */
+/* Contact Section */
+.contact-section {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+
+.contact-section h2 {
+    color: rgb(200, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Makes sure padding doesn't affect overall width */
+}
+
+.form-group textarea {
+    resize: vertical; /* Allows vertical resizing, might be useful for the message field */
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(200, 0, 0);
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(150, 0, 0);
 }
