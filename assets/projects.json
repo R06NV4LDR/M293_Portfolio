@@ -2,6 +2,7 @@
     {
         "id": 1,
         "title": "M293 | Kochrezept | Kochburg",
+        "category": "Web Development",
         "description": "A simple one page Website for a recipe. It was built using HTML and CSS.",
         "link": "https://r06nv4ldr.github.io/M293_Kochburg/",
         "technologies": [
@@ -22,6 +23,7 @@
     {
         "id": 2,
         "title": "M293 | Mediensammlung",
+        "category": "Web Development",
         "description": "A simple one page Website for a movie collection. It was built using HTML and CSS.",
         "link": "https://r06nv4ldr.github.io/M293_Mediensammlung/",
         "technologies": [
@@ -38,6 +40,7 @@
     {
         "id": 3,
         "title": "A 2 bonZai",
+        "category": "Web Development",
         "description": "Website made as a project for ICT BBC. It was built using HTML and CSS",
         "link": "https://r06nv4ldr.github.io/a2bonzai/",
         "technologies": [
@@ -54,6 +57,7 @@
     {
         "id": 4,
         "title": "M293 Portfolio",
+        "category": "Web Development",
         "description": "This is a detailed description of this website you're on right now. It was built using HTML, CSS, and JavaScript.",
         "link": "https://r06nv4ldr.github.io/M293_Portfolio/",
         "technologies": [
@@ -71,6 +75,7 @@
     {
         "id": 5,
         "title": "Finance App",
+        "category": "Web Application",
         "description": "Finance App is an application that allows users to add budgets for various kinds of expenses. It features user authentication and real-time data updates.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -96,6 +101,7 @@
     {
         "id": 6,
         "title": "Product Rater",
+        "category": "Mobile Application",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -129,6 +135,7 @@
     {
         "id": 7,
         "title": "Project 3",
+        "category": "Web Development",
         "description": "Description of Project 3.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -146,6 +153,7 @@
     {
         "id": 8,
         "title": "Project 4",
+        "category": "Web Development",
         "description": "Description of Project 4.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -163,6 +171,7 @@
     {
         "id": 9,
         "title": "Project 1",
+        "category": "Web Development",
         "description": "This is a detailed description of Project 1. It was built using HTML, CSS, and JavaScript.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -180,6 +189,7 @@
     {
         "id": 10,
         "title": "Product Rater",
+        "category": "Web Development",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -197,6 +207,7 @@
     {
         "id": 11,
         "title": "Project 3",
+        "category": "Web Development",
         "description": "Description of Project 3.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -214,6 +225,7 @@
     {
         "id": 12,
         "title": "Project 4",
+        "category": "Web Development",
         "description": "Description of Project 4.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -231,6 +243,7 @@
     {
         "id": 13,
         "title": "Product Rater",
+        "category": "Web Development",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -248,6 +261,7 @@
     {
         "id": 14,
         "title": "Project 3",
+        "category": "Web Development",
         "description": "Description of Project 3.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -265,6 +279,7 @@
     {
         "id": 15,
         "title": "Project 4",
+        "category": "Web Development",
         "description": "Description of Project 4.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -282,6 +297,7 @@
     {
         "id": 16,
         "title": "Product Rater",
+        "category": "Web Development",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -299,6 +315,7 @@
     {
         "id": 17,
         "title": "Project 3",
+        "category": "Web Development",
         "description": "Description of Project 3.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -316,6 +333,7 @@
     {
         "id": 18,
         "title": "Project 4",
+        "category": "Web Development",
         "description": "Description of Project 4.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -333,6 +351,7 @@
     {
         "id": 19,
         "title": "Product Rater",
+        "category": "Web Development",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -350,6 +369,7 @@
     {
         "id": 20,
         "title": "Project 3",
+        "category": "Web Development",
         "description": "Description of Project 3.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
@@ -367,6 +387,7 @@
     {
         "id": 15,
         "title": "Project 4",
+        "category": "Web Development",
         "description": "Description of Project 4.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
