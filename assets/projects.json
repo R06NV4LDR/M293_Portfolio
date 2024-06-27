@@ -11,11 +11,11 @@
         "images": [
             {
                 "src": "assets/img/projects/Kochburg.png",
-                "altText": "Kochburg Website"
+                "alt": "Kochburg Website"
             },
             {
                 "src": "assets/img/projects/Kochburg.png",
-                "altText": "Kochburg Website"
+                "alt": "Kochburg Website"
             }
         ]
     },
@@ -31,7 +31,7 @@
         "images": [
             {
                 "src": "assets/img/projects/Mediensammlung.png",
-                "altText": "Mediensammlung Website"
+                "alt": "Mediensammlung Website"
             }
         ]
     },
@@ -47,7 +47,7 @@
         "images": [
             {
                 "src": "assets/img/projects/A2BonZai_fullscreen.png",
-                "altText": "A2BonZai_Website"
+                "alt": "A2BonZai_Website"
             }
         ]
     },
@@ -64,7 +64,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "Portfolio Website"
+                "alt": "Portfolio Website"
             }
         ]
     },
@@ -81,15 +81,15 @@
         "images": [
             {
                 "src": "assets/img/projects/financeapp_dashboard.png",
-                "altText": "Finance App"
+                "alt": "Finance App"
             },
             {
                 "src": "assets/img/projects/financeapp_dashboard_detail.png",
-                "altText": "Finance App"
+                "alt": "Finance App"
             },
             {
                 "src": "assets/img/projects/financeapp_expenses_detail.png",
-                "altText": "Finance App"
+                "alt": "Finance App"
             }
         ]
     },
@@ -106,7 +106,7 @@
         "images": [
             {
                 "src": "assets/img/projects/ProductRater.png",
-                "altText": "Product Rater"
+                "alt": "Product Rater"
             }
         ]
     },
@@ -123,7 +123,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
@@ -140,7 +140,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
@@ -157,7 +157,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
@@ -174,7 +174,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
@@ -191,7 +191,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
@@ -208,7 +208,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
@@ -225,7 +225,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
@@ -242,7 +242,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
@@ -259,7 +259,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
@@ -276,7 +276,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
@@ -293,7 +293,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
@@ -310,7 +310,7 @@
         "images": [
             {
                 "src": "assets/img/logos/RB_5_transparent2.png",
-                "altText": "RB_5_transparent2"
+                "alt": "RB_5_transparent2"
             }
         ]
     },
