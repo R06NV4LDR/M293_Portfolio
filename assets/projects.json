@@ -3,270 +3,366 @@
         "id": 1,
         "title": "M293 | Kochrezept | Kochburg",
         "description": "A simple one page Website for a recipe. It was built using HTML and CSS.",
+        "link": "https://r06nv4ldr.github.io/M293_Kochburg/",
         "technologies": [
             "HTML",
             "CSS"
         ],
-        "image": "assets/img/projects/Kochburg.png",
-        "altText": "Kochburg Website",
-        "link": "https://r06nv4ldr.github.io/M293_Kochburg/"
+        "images": [
+            {
+                "image": "assets/img/projects/Kochburg.png",
+                "altText": "Kochburg Website"
+            },
+            {
+                "image": "assets/img/projects/Kochburg.png",
+                "altText": "Kochburg Website"
+            }
+        ]
     },
     {
         "id": 2,
         "title": "M293 | Mediensammlung",
         "description": "A simple one page Website for a movie collection. It was built using HTML and CSS.",
+        "link": "https://r06nv4ldr.github.io/M293_Mediensammlung/",
         "technologies": [
             "HTML",
             "CSS"
         ],
-        "image": "assets/img/projects/Mediensammlung.png",
-        "altText": "Mediensammlung Website",
-        "link": "https://r06nv4ldr.github.io/M293_Mediensammlung/"
+        "images": [
+            {
+                "image": "assets/img/projects/Mediensammlung.png",
+                "altText": "Mediensammlung Website"
+            }
+        ]
     },
     {
         "id": 3,
         "title": "A 2 bonZai",
         "description": "Website made as a project for ICT BBC. It was built using HTML and CSS",
+        "link": "https://r06nv4ldr.github.io/a2bonzai/",
         "technologies": [
             "HTML",
             "CSS"
         ],
-        "image": "assets/img/projects/A2BonZai_fullscreen.png",
-        "altText": "A2BonZai_Website",
-        "link": "https://r06nv4ldr.github.io/a2bonzai/"
+        "images": [
+            {
+                "image": "assets/img/projects/A2BonZai_fullscreen.png",
+                "altText": "A2BonZai_Website"
+            }
+        ]
     },
     {
         "id": 4,
         "title": "M293 Portfolio",
         "description": "This is a detailed description of this website you're on right now. It was built using HTML, CSS, and JavaScript.",
+        "link": "https://r06nv4ldr.github.io/M293_Portfolio/",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "Portfolio Website",
-        "link": "https://r06nv4ldr.github.io/M293_Portfolio/"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "Portfolio Website"
+            }
+        ]
     },
     {
         "id": 5,
         "title": "Finance App",
         "description": "Finance App is an application that allows users to add budgets for various kinds of expenses. It features user authentication and real-time data updates.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "Node.js",
             "Express",
             "MongoDB"
         ],
-        "image": "assets/img/projects/ProductRater.png",
-        "altText": "Finance App",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "src": "assets/img/projects/financeapp_dashboard.png",
+                "altText": "Finance App"
+            },
+            {
+                "src": "assets/img/projects/financeapp_dashboard_detail.png",
+                "altText": "Finance App"
+            },
+            {
+                "src": "assets/img/projects/financeapp_expenses_detail.png",
+                "altText": "Finance App"
+            }
+        ]
     },
     {
         "id": 6,
         "title": "Product Rater",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "React-Native",
             "Expo",
             "Firestore"
         ],
-        "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/projects/ProductRater.png",
+                "altText": "Product Rater"
+            }
+        ]
     },
     {
         "id": 7,
         "title": "Project 3",
         "description": "Description of Project 3.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "React",
             "Redux",
             "Firebase"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 8,
         "title": "Project 4",
         "description": "Description of Project 4.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "Vue",
             "Vuex",
             "Axios"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 9,
         "title": "Project 1",
         "description": "This is a detailed description of Project 1. It was built using HTML, CSS, and JavaScript.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 10,
         "title": "Product Rater",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "Node.js",
             "Express",
             "MongoDB"
         ],
-        "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 11,
         "title": "Project 3",
         "description": "Description of Project 3.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "React",
             "Redux",
             "Firebase"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 12,
         "title": "Project 4",
         "description": "Description of Project 4.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "Vue",
             "Vuex",
             "Axios"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 13,
         "title": "Product Rater",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "Node.js",
             "Express",
             "MongoDB"
         ],
-        "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 14,
         "title": "Project 3",
         "description": "Description of Project 3.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "React",
             "Redux",
             "Firebase"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 15,
         "title": "Project 4",
         "description": "Description of Project 4.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "Vue",
             "Vuex",
             "Axios"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 16,
         "title": "Product Rater",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "Node.js",
             "Express",
             "MongoDB"
         ],
-        "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 17,
         "title": "Project 3",
         "description": "Description of Project 3.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "React",
             "Redux",
             "Firebase"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 18,
         "title": "Project 4",
         "description": "Description of Project 4.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "Vue",
             "Vuex",
             "Axios"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 19,
         "title": "Product Rater",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "Node.js",
             "Express",
             "MongoDB"
         ],
-        "image": "assets/img/projects/ProductRater.png",
-        "altText": "Product Rater",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 20,
         "title": "Project 3",
         "description": "Description of Project 3.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "React",
             "Redux",
             "Firebase"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     },
     {
         "id": 15,
         "title": "Project 4",
         "description": "Description of Project 4.",
+        "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "Vue",
             "Vuex",
             "Axios"
         ],
-        "image": "assets/img/logos/RB_5_transparent2.png",
-        "altText": "RB_5_transparent2",
-        "link": "https://github.com/R06NV4LDR"
+        "images": [
+            {
+                "image": "assets/img/logos/RB_5_transparent2.png",
+                "altText": "RB_5_transparent2"
+            }
+        ]
     }
 ]
