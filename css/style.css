@@ -611,7 +611,7 @@ span {
 } */
 
 @media (max-width: 600px) {
-    /* Versteckt die Navigation */
+    /* Versteckt die Navigation standardmäßig */
     .navbar {
         display: none;
         flex-direction: column;
@@ -622,6 +622,7 @@ span {
         width: 100%;
         z-index: 100;
     }
+
     .navbar a {
         padding: 1rem;
         text-align: center;
@@ -629,16 +630,19 @@ span {
     }
 
     /* Zeigt das Menü-Icon an */
-    #menu-icon {
+    .menu-icon {
         display: block;
         cursor: pointer;
         font-size: 3.6rem;
         color: var(--text-color);
     }
 
+    /* Wenn die Checkbox aktiviert ist, wird das Menü angezeigt */
     #menu-toggle:checked + .menu-icon + .navbar {
         display: flex;
     }
+}
+
 
     /* Anpassungen für die .bento und .bento-item Elemente */
     .bento .bento-grid {
