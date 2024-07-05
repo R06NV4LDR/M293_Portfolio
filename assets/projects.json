@@ -3,7 +3,7 @@
         "id": 1,
         "title": "M293 | Kochrezept | Kochburg",
         "category": "Web Development",
-        "description": "A simple one page Website for a recipe. It was built using HTML and CSS.",
+        "description": "Kochburg, ist eine deutschsprachige Seite, die sich einem Schulprojekt für die TBZ widmet.\nSie bietet Informationen rund um das Thema Kochen, einschließlich Rezepte und Anleitungen.\nDie Startseite präsentiert ein hervorgehobenes Rezept, inklusive einer Zutatenliste und einer visuellen Darstellung des Gerichts.\nDie Navigation ermöglicht einen schnellen Zugriff auf die Zutatenliste und die Kochanleitung.\nDie Seite ist responsiv gestaltet, um auf verschiedenen Geräten ansprechend angezeigt zu werden.",
         "link": "https://r06nv4ldr.github.io/M293_Kochburg/",
         "technologies": [
             "HTML",
@@ -24,7 +24,7 @@
         "id": 2,
         "title": "M293 | Mediensammlung",
         "category": "Web Development",
-        "description": "A simple one page Website for a movie collection. It was built using HTML and CSS.",
+        "description": "Diese Webseite ist eine Mediensammlung, die in deutscher Sprache verfasst ist. Sie präsentiert eine Auswahl von Filmen in einem Grid-Layout. Jeder Film wird durch ein Bild, den Titel und das Erscheinungsjahr repräsentiert. Die Bilder sind als Links gestaltet, die zu den entsprechenden IMDb-Seiten der Filme führen. Die Webseite verwendet externe Stylesheets für das Design und hat ein Favicon, das auf den Medieninhalt hinweist. Die vorgestellten Filme umfassen 'A Scanner Darkly' (2006), 'Law Abiding Citizen' (2009), 'Tenacious D - The Pick Of Destiny' (2006) und 'Fantomas' (1964).",
         "link": "https://r06nv4ldr.github.io/M293_Mediensammlung/",
         "technologies": [
             "HTML",
@@ -49,8 +49,12 @@
         ],
         "images": [
             {
-                "src": "assets/img/projects/A2BonZai_fullscreen.png",
-                "alt": "A2BonZai_Website"
+                "src": "assets/img/projects/A2BonZai/A2BonZai_fullscreen.png",
+                "alt": "A2BonZai_Desktop"
+            },
+            {
+                "src": "assets/img/projects/A2BonZai/A2BonZai_mobile.png",
+                "alt": "A2BonZai_Mobile"
             }
         ]
     },
@@ -76,7 +80,7 @@
         "id": 5,
         "title": "Finance App",
         "category": "Web Application",
-        "description": "Finance App is an application that allows users to add budgets for various kinds of expenses. It features user authentication and real-time data updates.",
+        "description": "Finance App ist eine Webanwendung für Finanzmanagement und bietet Benutzern die Möglichkeit, ihre Budgets zu verwalten und Ausgaben zu kontrollieren.\nNach dem Login gelangen Benutzer zum Dashboard, wo sie Budgets mit Namen und Maximalbetrag anzeigen können, sowie eine spezielle Karte für nicht kategorisierte Ausgaben.\nNeue Ausgaben können hinzugefügt werden, indem eine Beschreibung, das Datum, der Betrag und das Budget angegeben werden, wobei auch die Farbe der Ausgabe anpassbar ist.\nModale Dialoge erleichtern die Interaktionen.\nDie App verwaltet Benutzersitzungen, um die Authentifizierung zu steuern, und nutzt React-Bootstrap für ein modernes, benutzerfreundliches Design.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "Node.js",
@@ -85,15 +89,15 @@
         ],
         "images": [
             {
-                "src": "assets/img/projects/financeapp_dashboard.png",
+                "src": "assets/img/projects/FinanceApp/financeapp_dashboard.png",
                 "alt": "Finance App"
             },
             {
-                "src": "assets/img/projects/financeapp_dashboard_detail.png",
+                "src": "assets/img/projects/FinanceApp/financeapp_dashboard_detail.png",
                 "alt": "Finance App"
             },
             {
-                "src": "assets/img/projects/financeapp_expenses_detail.png",
+                "src": "assets/img/projects/FinanceApp/financeapp_expenses_detail.png",
                 "alt": "Finance App"
             }
         ]
@@ -102,7 +106,7 @@
         "id": 6,
         "title": "Product Rater",
         "category": "Mobile Application",
-        "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "description": "Product Rater ist eine mobile Anwendung, entwickelt mit dem Ziel, Nutzern das Scannen von Barcodes zu ermöglichen, um schnell und einfach Produktinformationen abzurufen. Die App nutzt die Open Food Facts API und Firebase Firestore, um Produktinformationen sowohl aus einer Online-Datenbank als auch aus einer lokalen Datenbank bereitzustellen. Die Anwendung ist mit React Native und Expo für das Barcodescanning und Firebase für das Datenmanagement entwickelt worden.\n\nVersion 1.0.0 Datum: 29.05.2024\nHauptfunktionen\nBarcodescanning: Nutzer können Barcodes mit ihrem Smartphone scannen, um Produktinformationen abzurufen.\nProduktdetails: Die App ruft Produktdetails aus der Open Food Facts API und einer lokalen Firestore-Datenbank ab.\nManuelle Eingabe: Wenn ein Produkt in keiner der Datenbanken gefunden wird, können Nutzer die Details manuell eingeben.\nBenutzerfreundliche Oberfläche: Die App bietet eine intuitive und leicht zu navigierende Benutzeroberfläche.\nSystemanforderungen\nBetriebssystem: Android (Version variabel je nach Gerät), iOS (Version 11.0 oder neuer).\nInternetverbindung: Erforderlich für den Zugriff auf die Open Food Facts API und Firebase Firestore.\nInstallation\nDie ProduktBewerter App kann über den Expo Client auf Android und iOS Geräten ausgeführt werden:\n\nInstallieren Sie den Expo Client aus dem Google Play Store oder Apple App Store auf Ihrem Gerät.\nÖffnen Sie den Expo Client und scannen Sie den QR-Code, der auf der Projektseite der ProduktBewerter App bereitgestellt wird.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
             "React-Native",
@@ -111,41 +115,40 @@
         ],
         "images": [
             {
-                "src": "assets/img/projects/ProductRater_HomeScreen.png",
+                "src": "assets/img/projects/ProductRater/ProductRater_HomeScreen.png",
                 "alt": "Product Rater Home Screen"
             },
             {
-                "src": "assets/img/projects/ProductRater_Categories.png",
+                "src": "assets/img/projects/ProductRater/ProductRater_Categories.png",
                 "alt": "Product Rater Categories"
             },
             {
-                "src": "assets/img/projects/ProductRater_Category.png",
+                "src": "assets/img/projects/ProductRater/ProductRater_Category.png",
                 "alt": "Product Rater Category"
             },
             {
-                "src": "assets/img/projects/ProductRater_ProductDetail.png",
+                "src": "assets/img/projects/ProductRater/ProductRater_ProductDetail.png",
                 "alt": "Product Rater Product Detail"
             },
             {
-                "src": "assets/img/projects/ProductRater_Scan.png",
+                "src": "assets/img/projects/ProductRater/ProductRater_Scan.png",
                 "alt": "Product Rater Scanner"
             }
         ]
     },
     {
         "id": 7,
-        "title": "Project 3",
-        "category": "Web Development",
-        "description": "Description of Project 3.",
+        "title": "Keys to Freedom",
+        "category": "Game Development",
+        "description": "Keys to Freedom ist ein kleiner 2D-Dungeon Crawler in dem das Ziel ist möglichst schnell drei Schlüssel einzusammeln und zum Ausgang zu gelangen. Dieses Projekt wurde im Rahmen des SCRUM Abschluss-Projekts im Basislehrjahr im BBC realisiert",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
-            "React",
-            "Redux",
-            "Firebase"
+            "Unity",
+            "C#"
         ],
         "images": [
             {
-                "src": "assets/img/logos/RB_5_transparent2.png",
+                "src": "assets/img/projects/keystofreedom/ktf_startscreen.png",
                 "alt": "RB_5_transparent2"
             }
         ]
