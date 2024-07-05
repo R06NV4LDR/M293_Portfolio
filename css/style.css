@@ -609,6 +609,9 @@ span {
 .btn:hover {
     background-color: rgb(150, 0, 0);
 } */
+#menu-toggle {
+    display: none;
+}
 
 @media (max-width: 600px) {
     /* Versteckt die Navigation standardmäßig */
@@ -641,8 +644,6 @@ span {
     #menu-toggle:checked + .menu-icon + .navbar {
         display: flex;
     }
-
-
 
     /* Anpassungen für die .bento und .bento-item Elemente */
     .bento .bento-grid {
