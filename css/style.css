@@ -641,7 +641,7 @@ span {
     #menu-toggle:checked + .menu-icon + .navbar {
         display: flex;
     }
-}
+
 
 
     /* Anpassungen für die .bento und .bento-item Elemente */
