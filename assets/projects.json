@@ -149,7 +149,15 @@
         "images": [
             {
                 "src": "assets/img/projects/keystofreedom/ktf_startscreen.png",
-                "alt": "RB_5_transparent2"
+                "alt": "Keys to Freedom Start Menu"
+            },
+            {
+                "src": "assets/img/projects/keystofreedom/ktf_startroom.png",
+                "alt": "Keys to Freedom Start Room"
+            },
+            {
+                "src": "assets/img/projects/keystofreedom/ktf_icearea.png",
+                "alt": "Keys to Freedom Ice Area"
             }
         ]
     },
