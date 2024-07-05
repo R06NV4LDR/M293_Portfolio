@@ -614,18 +614,31 @@ span {
     /* Versteckt die Navigation */
     .navbar {
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Höhe des Headers */
+        right: 0;
+        background-color: var(--bg-color);
+        width: 100%;
+        z-index: 100;
     }
-
     .navbar a {
-        display: block;
-        margin: 0;
+        padding: 1rem;
+        text-align: center;
+        border-top: 1px solid var(--main-color);
     }
 
     /* Zeigt das Menü-Icon an */
     #menu-icon {
         display: block;
+        cursor: pointer;
+        font-size: 3.6rem;
+        color: var(--text-color);
     }
 
+    #menu-toggle:checked + .menu-icon + .navbar {
+        display: flex;
+    }
 
     /* Anpassungen für die .bento und .bento-item Elemente */
     .bento .bento-grid {
