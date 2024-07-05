@@ -627,3 +627,33 @@ span {
 .btn:hover {
     background-color: rgb(150, 0, 0);
 } */
+
+@media (max-width: 768px) {
+    /* Anpassungen für die .bento und .bento-item Elemente */
+    .bento .bento-grid {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 15px; /* Geringerer Abstand für kleinere Bildschirme */
+        height: auto; /* Höhe anpassen, um alle Elemente zu umfassen */
+    }
+
+    .bento .bento-item {
+        padding: 15px; /* Geringere Polsterung für kleinere Bildschirme */
+        height: auto; /* Höhe automatisch an den Inhalt anpassen */
+    }
+
+    .bento .bento-item img {
+        height: 100%; /* Bildhöhe anpassen */
+        top: 0; /* Bildposition zurücksetzen */
+    }
+
+    /* Navigationsleiste verbergen */
+    .navigation-bar {
+        display: none;
+    }
+
+    /* Menüsymbol anzeigen */
+    .menu-icon {
+        display: block;
+    }
+}
