@@ -19,11 +19,12 @@
   <body>
     <!-- Header Design-->
     <header class="header">
-      <a href="" class="logo">RAB.dev</a>
-
-      <div class="bx bx-menu" id="menu-icon"></div>
-
       <nav class="navbar">
+        <a href="" class="logo">RAB.dev</a>
+        <ul></ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <li></li>
         <a href="/index.html">Home</a>
         <a href="/about.html">About</a>
         <a href="/skills.html">Skills</a>
@@ -33,8 +34,8 @@
     </header>
 
     <!-- projects section design  -->
-    <button onclick="filterProjects('all')">All</button>
-    <button onclick="filterProjects('Web Development')">Web Development</button>
+    <div id="filter-options"></div>
+    <div id="projects-container"></div>
     <!-- Add more buttons for other categories as needed -->
     <section class="bento">
       <div class="heading">
@@ -48,7 +49,7 @@
         <div class="bento-item">
           1
           <img
-            src="assets/img/projects/financeapp_dashboard_detail.png"
+            src="assets/img/projects/FinanceApp/financeapp_dashboard.png"
             alt="Finance App"
             width="100%"
           />
@@ -58,7 +59,7 @@
         <!-- Product Rater -->
         <div class="bento-item">
           2
-          <img src="assets/img/projects/ProductRater.png" alt="Product Rater" />
+          <img src="assets/img/projects/ProductRater/ProductRater.png" alt="Product Rater" />
           <a href="/projectdetail.html?projectId=6"></a>
           <div class="project-title"></div>
         </div>
@@ -97,7 +98,7 @@
         <div class="bento-item">
           6
           <img
-            src="assets/img/projects/ProductRater.png"
+            src="assets/img/projects/ProductRater/ProductRater.png"
             alt="RB_5_transparent2"
             height="100%"
           />
@@ -107,8 +108,8 @@
         <div class="bento-item">
           7
           <img
-            src="/assets/img/logos/RB_5_transparent2.png"
-            alt="RB_5_transparent2"
+            src="/assets/img/projects/keystofreedom/ktf_startroom.png"
+            alt="Keys to Freedom"
             width="100%"
           />
           <a href="/projectdetail.html?projectId=6"></a>
@@ -137,7 +138,7 @@
         <div class="bento-item">
           10
           <img
-            src="assets/img/projects/A2BonZai_mobile.png"
+            src="assets/img/projects/A2BonZai/A2BonZai_mobile.png"
             alt="RB_5_transparent2"
             width="100%"
           />
@@ -197,7 +198,7 @@
     </section>
 
     <!-- <script src="js/script.js"></script> -->
-    <script src="filterProjects.js"></script>
+    <script src="projectLoader.js"></script>
     <footer>"Made with Coffee and Love by R00N35"</footer>
   </body>
 </html>
