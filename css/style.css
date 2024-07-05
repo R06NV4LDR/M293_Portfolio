@@ -616,10 +616,16 @@ span {
         display: none;
     }
 
+    .navbar a {
+        display: block;
+        margin: 0;
+    }
+
     /* Zeigt das Menü-Icon an */
     #menu-icon {
         display: block;
     }
+
 
     /* Anpassungen für die .bento und .bento-item Elemente */
     .bento .bento-grid {
