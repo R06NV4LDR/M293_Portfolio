@@ -614,12 +614,36 @@ span {
     display: none;
 }
 
+/* Standardmäßig zeigt das Menü-Symbol und versteckt das Schließen-Symbol */
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none; /* Nur im mobilen Design sichtbar */
+}
+
+#close-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+}
+
+/* Umschaltlogik für das Menü und die Symbole */
+#menu-toggle:checked + label .fa-bars {
+    display: none;
+}
+
+#menu-toggle:checked + label .fa-times {
+    display: block;
+}
+
 @media (max-width: 600px) {
     /* Versteckt die Navigation standardmäßig */
     .navbar {
+        position: absolute;
         display: none;
         flex-direction: column;
-        position: absolute;
         top: 60px; /* Höhe des Headers */
         right: 0;
         background-color: var(--bg-color);
@@ -646,7 +670,6 @@ span {
     #menu-toggle:checked + .menu-icon + .navbar {
         display: flex;
     }
-
 
     /* Anpassungen für die .bento und .bento-item Elemente */
     .bento .bento-grid {
