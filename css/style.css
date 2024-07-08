@@ -683,21 +683,35 @@ span {
         padding: 15px; /* Geringere Polsterung für kleinere Bildschirme */
         height: auto; /* Höhe automatisch an den Inhalt anpassen */
     }
-
+    
     .bento .bento-item img {
         height: 100%; /* Bildhöhe anpassen */
         top: 0; /* Bildposition zurücksetzen */
     }
-
+    
     /* Navigationsleiste verbergen */
     .navigation-bar {
         display: none;
     }
-
+    
     /* Menüsymbol anzeigen */
     .menu-icon {
         display: block;
     }
+}
+
+@media (max-width: 900px) {
+    /* Stile für Bildschirme bis zu 900px Breite */
+    .bento .bento-grid {
+        grid-template-columns: repeat(1, 1fr); /* 2 Spalten für mittlere Ansichten */
+        grid-gap: 15px; /* Standardabstand */
+    }
+
+    .bento .bento-item {
+        padding: 15px; /* Standardpolsterung */
+    }
+
+    /* Anpassungen für Navigation und Menüsymbol könnten hier eingefügt werden, falls benötigt */
 }
 
 @media (max-width: 1200px) {
@@ -712,16 +726,3 @@ span {
     }
 }
 
-@media (max-width: 900px) {
-    /* Stile für Bildschirme bis zu 900px Breite */
-    .bento .bento-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 Spalten für mittlere Ansichten */
-        grid-gap: 15px; /* Standardabstand */
-    }
-
-    .bento .bento-item {
-        padding: 15px; /* Standardpolsterung */
-    }
-
-    /* Anpassungen für Navigation und Menüsymbol könnten hier eingefügt werden, falls benötigt */
-}
