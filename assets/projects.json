@@ -163,7 +163,7 @@
     },
     {
         "id": 8,
-        "title": "Project 4",
+        "title": "Automated ShellScripts",
         "category": "Web Development",
         "description": "Description of Project 4.",
         "link": "https://github.com/R06NV4LDR",
@@ -181,7 +181,7 @@
     },
     {
         "id": 9,
-        "title": "Project 1",
+        "title": "Bomberman",
         "category": "Web Development",
         "description": "This is a detailed description of Project 1. It was built using HTML, CSS, and JavaScript.",
         "link": "https://github.com/R06NV4LDR",
@@ -199,7 +199,7 @@
     },
     {
         "id": 10,
-        "title": "Product Rater",
+        "title": "Project Hangman (German)",
         "category": "Web Development",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
         "link": "https://github.com/R06NV4LDR",
