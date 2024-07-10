@@ -187,13 +187,12 @@
     },
     {
         "id": 9,
-        "title": "Bomberman",
-        "category": "Web Development",
-        "description": "This is a detailed description of Project 1. It was built using HTML, CSS, and JavaScript.",
+        "title": "DR3123HN - Moring",
+        "category": "Music Production",
+        "description": "DR3123HN - Moring is a music production project that I worked on. It features a music video that I created using Adobe After Effects and Adobe Premiere Pro. The music was produced using FL Studio and features a mix of electronic and orchestral elements. The video was uploaded to YouTube and has received positive feedback from viewers. The project was a great learning experience for me and helped me improve my skills in music production and video editing.",
         "link": "https://www.youtube.com/watch?v=NuoWX7lTA54",
         "technologies": [
-            "HTML",
-            "CSS",
+            "Ableton Live",
             "JavaScript"
         ],
         "images": [
@@ -205,7 +204,7 @@
     },
     {
         "id": 10,
-        "title": "Project Hangman (German)",
+        "title": "Bomberman with Java",
         "category": "Web Development",
         "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
         "link": "https://github.com/R06NV4LDR",
