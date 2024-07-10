@@ -655,12 +655,19 @@ span {
 }
 
 @media (max-width: 600px) {
+    header {
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+      }
+
     /* Versteckt die Navigation standardmäßig */
     .navbar {
         position: absolute;
         display: none;
         flex-direction: column;
         top: 60px; /* Höhe des Headers */
+        left: 0;
         right: 0;
         background-color: var(--bg-color);
         width: 100%;
