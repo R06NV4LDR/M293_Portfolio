@@ -718,6 +718,10 @@ span {
 
 @media (max-width: 900px) {
     /* Stile für Bildschirme bis zu 900px Breite */
+    .header {
+        padding: 2rem 4;
+    }
+
     .bento .bento-grid {
         grid-template-columns: repeat(1, 1fr); /* 2 Spalten für mittlere Ansichten */
         grid-gap: 15px; /* Standardabstand */
@@ -731,7 +735,9 @@ span {
 }
 
 @media (max-width: 1200px) {
-    /* Stile für Bildschirme bis zu 1200px Breite */
+    html {
+        font-size: 56.25%; /* 1rem entspricht 9px */
+    }
     .bento .bento-grid {
         grid-template-columns: repeat(3, 1fr); /* 3 Spalten für größere Ansichten */
         grid-gap: 20px; /* Etwas mehr Abstand */
