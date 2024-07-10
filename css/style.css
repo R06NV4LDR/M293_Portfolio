@@ -133,10 +133,9 @@ section {
     /* background: url("/assets/RB_5_transparentlong.png") no-repeat; */
     background-size: cover;
     background-position: center;
-
-    .home-content {
-        max-width: 60rem;
-    }
+}
+.home-content {
+    max-width: 60rem;
 
     .home-content h1 {
         font-size: 5.6rem;
@@ -160,6 +159,16 @@ section {
         background-position: -15rem 0;
     }
 
+    .home-content .text-animation h3::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        border-right: 2px  solid var(--main-color);
+        z-index: -1;
+    }
     .home-content p {
         font-size: 1.6rem;
         margin: 2rem 0 4rem;
@@ -292,7 +301,7 @@ section {
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    background: transparent/*var(--second-bg-color); */;
+    background: transparent /*var(--second-bg-color); */;
     padding-bottom: 6rem;
 }
 
@@ -314,7 +323,6 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .about-img img {
     width: 90%;
@@ -663,7 +671,7 @@ span {
         justify-content: space-between;
         align-items: center;
         position: relative;
-      }
+    }
 
     /* Versteckt die Navigation standardmäßig */
     .navbar {
