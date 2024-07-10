@@ -171,7 +171,7 @@ section {
         border-right: 2px solid var(--main-color);
         z-index: -1;
         animation: homeCursorJob 6s linear infinite;
-        animation-delay: 3s;
+        animation-delay: 2s;
     }
     p {
         font-size: 1.6rem;
