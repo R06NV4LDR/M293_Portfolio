@@ -6,8 +6,14 @@
         "description": "Kochburg, ist eine deutschsprachige Seite, die sich einem Schulprojekt für die TBZ widmet.\nSie bietet Informationen rund um das Thema Kochen, einschließlich Rezepte und Anleitungen.\nDie Startseite präsentiert ein hervorgehobenes Rezept, inklusive einer Zutatenliste und einer visuellen Darstellung des Gerichts.\nDie Navigation ermöglicht einen schnellen Zugriff auf die Zutatenliste und die Kochanleitung.\nDie Seite ist responsiv gestaltet, um auf verschiedenen Geräten ansprechend angezeigt zu werden.",
         "link": "https://r06nv4ldr.github.io/M293_Kochburg/",
         "technologies": [
-            "HTML",
-            "CSS"
+            {
+                "name": "HTML",
+                "logo": "path/to/nodejs/logo.png"
+            },
+            {
+                "name": "CSS",
+                "logo": "path/to/express/logo.png"
+            }
         ],
         "images": [
             {
@@ -184,7 +190,7 @@
         "title": "Bomberman",
         "category": "Web Development",
         "description": "This is a detailed description of Project 1. It was built using HTML, CSS, and JavaScript.",
-        "link": "https://github.com/R06NV4LDR",
+        "link": "https://www.youtube.com/watch?v=NuoWX7lTA54",
         "technologies": [
             "HTML",
             "CSS",
