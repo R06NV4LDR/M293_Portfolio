@@ -157,7 +157,7 @@ section {
         background-image: linear-gradient(var(--main-color), var(--main-color));
         background-repeat: no-repeat;
         -webkit-background-clip: text;
-        background-position: 0 0;
+        background-position: -15rem 0;
     }
 
     .home-content p {
