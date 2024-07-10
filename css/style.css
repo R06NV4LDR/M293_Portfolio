@@ -158,7 +158,7 @@ section {
         -webkit-background-clip: text;
         background-position: -33rem 0;
         animation: text-animation 6s linear infinite;
-        animation-delay: 3s;
+        animation-delay: 2s;
     }
 
     .text-animation h3::before {
