@@ -69,7 +69,7 @@ body {
     display: none;
 }
 
-.slider {
+/* .slider {
     background-color: #ccc;
     bottom: 0;
     cursor: pointer;
@@ -93,7 +93,7 @@ body {
     left: 4px;
     transition: 0.4s;
     border-radius: 50%;
-}
+} */
 
 input:checked + .slider {
     background-color: #2196f3;
@@ -154,6 +154,10 @@ section {
         font-weight: 700;
         color: transparent;
         -webkit-text-stroke: 0.7px var(--main-color);
+        background-image: linear-gradient(var(--main-color), var(--main-color));
+        background-repeat: no-repeat;
+        -webkit-background-clip: text;
+        background-position: 0 0;
     }
 
     .home-content p {
