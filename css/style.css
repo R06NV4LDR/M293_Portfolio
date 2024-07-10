@@ -642,6 +642,18 @@ span {
     display: block;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background-color: var(--bg-color);
+
+    /* color: var(--text-color); */
+    /* text-align: center; */
+}
+
 @media (max-width: 600px) {
     /* Versteckt die Navigation standardmäßig */
     .navbar {
@@ -687,17 +699,17 @@ span {
         padding: 15px; /* Geringere Polsterung für kleinere Bildschirme */
         height: auto; /* Höhe automatisch an den Inhalt anpassen */
     }
-    
+
     .bento .bento-item img {
         height: 100%; /* Bildhöhe anpassen */
         top: 0; /* Bildposition zurücksetzen */
     }
-    
+
     /* Navigationsleiste verbergen */
     .navigation-bar {
         display: none;
     }
-    
+
     /* Menüsymbol anzeigen */
     .menu-icon {
         display: block;
@@ -729,4 +741,3 @@ span {
         padding: 20px; /* Mehr Polsterung */
     }
 }
-
