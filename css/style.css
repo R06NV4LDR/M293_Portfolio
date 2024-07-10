@@ -157,6 +157,8 @@ section {
         background-repeat: no-repeat;
         -webkit-background-clip: text;
         background-position: 0 0;
+        animation: text-animation 6s linear infinite;
+        animation-delay: 3s;
     }
 
     .text-animation h3::before {
@@ -168,6 +170,8 @@ section {
         height: 100%;
         border-right: 2px solid var(--main-color);
         z-index: -1;
+        animation: homeCursorJob 6s linear infinite;
+        animation-delay: 3s;
     }
     p {
         font-size: 1.6rem;
@@ -764,5 +768,35 @@ span {
 
     .bento .bento-item {
         padding: 20px; /* Mehr Polsterung */
+    }
+}
+
+@keyframes text-animation {
+    0%,
+    10%,
+    100% {
+        background-position: -33rem 0;
+    }
+    65%,
+    85% {
+        background-position: 0 0;
+    }
+}
+@keyframes homeCursorJob {
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+    65%,
+    78%,
+    85% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    75%,
+    81% {
+        opacity: 0;
     }
 }
