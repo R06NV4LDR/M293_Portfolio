@@ -515,6 +515,8 @@ span {
 /* Slideshow container */
 .slideshow-container {
     width: 100%;
+    justify-content: center;
+    align-items: center;
     /* position: relative; */
     margin: 0 auto;
 }
