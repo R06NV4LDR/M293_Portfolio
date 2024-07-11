@@ -191,9 +191,9 @@
         "category": "Music Production",
         "description": "DR3123HN - Moring is a music production project that I worked on. It features a music video that I created using Adobe After Effects and Adobe Premiere Pro. The music was produced using FL Studio and features a mix of electronic and orchestral elements. The video was uploaded to YouTube and has received positive feedback from viewers. The project was a great learning experience for me and helped me improve my skills in music production and video editing.",
         "link": "https://www.youtube.com/watch?v=NuoWX7lTA54",
+        "youtubeVideoId": "NuoWX7lTA54",
         "technologies": [
-            "Ableton Live",
-            "JavaScript"
+            "Ableton Live"
         ],
         "images": [
             {
@@ -201,6 +201,7 @@
                 "alt": "RB_5_transparent2"
             }
         ]
+
     },
     {
         "id": 10,
