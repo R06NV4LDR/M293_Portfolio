@@ -484,8 +484,8 @@ span {
 /* Slideshow container */
 .slideshow-container {
     width: 100%;
-    position: relative;
-    margin: auto;
+    /* position: relative; */
+    margin: 0 auto;
 }
 
 /* Hide the images by default */
