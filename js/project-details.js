@@ -44,6 +44,8 @@ async function fetchProjectDetails(projectId) {
 }
 
 function displayProjectDetails(project) {
+    let projectHtml = `<h1>${project.title}</h1>`;
+
     // Generate HTML for each image slide
     let slidesHtml = project.images.map(image =>
         `<div class="mySlides fade">
@@ -66,21 +68,18 @@ function displayProjectDetails(project) {
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     `;
 
-    // Insert the slides HTML into the slideshow container
-    document.getElementById('slideshowContainer').innerHTML = slidesHtml;
+    projectHtml += `<div id="slideshowContainer">${slidesHtml}</div>`;
 
-    // Insert project details
-    document.getElementById('projectDetail').insertAdjacentHTML('afterbegin', `
-        <section class="home">
-            <div class="project-content">
-                <div class="project-info">
-                    <h1>${project.title}</h1>
-                    <p>${project.description}</p>
-                    <h3>Technologies Used:</h3> <p>${project.technologies.join(', ')}</p>
-                </div>
-            </div>
-        </section>
-    `);
+    // Add project description
+    projectHtml += `
+        <div class="project-info">
+            <p>${project.description}</p>
+            <h3>Technologies Used:</h3> <p>${project.technologies.join(', ')}</p>
+        </div>
+    `;
+
+    // Insert the complete project HTML into the projectDetail container
+    document.getElementById('projectDetail').innerHTML = projectHtml;
 
     // Initialize the slideshow after the slides are inserted into the DOM
     showSlides(slideIndex);
