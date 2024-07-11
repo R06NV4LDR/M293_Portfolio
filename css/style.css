@@ -456,17 +456,17 @@ span {
     max-width: 100%; */
 }
 
-.project-info {
+/* .project-info {
     flex: 1;
     order: 1;
     /* max-width: 50%; */
-}
+/* } */
 
-.project-image {
-    flex: 1;
-    order: 2;
-    /* max-width: 50%; */
-}
+/* .project-image { */
+/* flex: 1; */
+/* order: 2; */
+/* max-width: 50%; */
+/* } */
 
 .project-info {
     padding-right: 20px; /* Add some spacing between the text and the image */
@@ -480,6 +480,37 @@ span {
 }
 
 /* Project-Detail */
+/* Additions */
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact {
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 50rem;
+    text-align: center;
+}
+
+.contact-content h3 {
+    font-size: 2.6rem;
+}
+
+.contact-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
 
 /* Slideshow container */
 .slideshow-container {
