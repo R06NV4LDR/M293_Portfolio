@@ -51,6 +51,15 @@ function displayProjectDetails(project) {
         </div>`
     ).join('');
 
+    // Check if there's a YouTube video ID and add it as a slide
+    if (project.youtubeVideoId) {
+        slidesHtml += `
+            <div class="mySlides fade">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/${project.youtubeVideoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:50%;"></iframe>
+            </div>
+        `;
+    }
+
     // Add navigation buttons
     slidesHtml += `
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
