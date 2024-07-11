@@ -28,6 +28,7 @@ html {
 body {
     background: linear-gradient(to bottom, var(--bg-color) 0%, var(--main-color) 100%);
     color: var(--text-color);
+    background-repeat: no-repeat;
 }
 
 .header {
@@ -451,7 +452,9 @@ span {
 
 .project-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     /* align-items: flex-start;
     max-width: 100%; */
 }
@@ -463,13 +466,16 @@ span {
 /* } */
 
 /* .project-image { */
-/* flex: 1; */
-/* order: 2; */
-/* max-width: 50%; */
+    /* flex: 1; */
+    /* order: 2; */
+    /* max-width: 50%; */
 /* } */
 
 .project-info {
-    padding-right: 20px; /* Add some spacing between the text and the image */
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    /* padding-right: 20px; Add some spacing between the text and the image */
 }
 
 .project-image img {
@@ -480,43 +486,10 @@ span {
 }
 
 /* Project-Detail */
-/* Additions */
-.projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.contact {
-    padding-bottom: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.contact-content {
-    max-width: 50rem;
-    text-align: center;
-}
-
-.contact-content h3 {
-    font-size: 2.6rem;
-}
-
-.contact-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
-}
 
 /* Slideshow container */
 .slideshow-container {
     width: 100%;
-    justify-content: center;
-    align-items: center;
     /* position: relative; */
     margin: 0 auto;
 }
