@@ -69,7 +69,6 @@ body {
     display: none;
 }
 
-
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
@@ -476,8 +475,8 @@ span {
 .project-image img {
     /* flex: 1; Take up the other half */
     width: 100%;
-    max-width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 /* Project-Detail */
