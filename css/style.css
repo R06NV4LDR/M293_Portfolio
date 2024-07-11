@@ -69,57 +69,7 @@ body {
     display: none;
 }
 
-/* .slider {
-    background-color: #ccc;
-    bottom: 0;
-    cursor: pointer;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: 0.4s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.slider:before {
-    content: "";
-    height: 26px;
-    width: 26px;
-    background-color: white;
-    position: absolute;
-    bottom: 4px;
-    left: 4px;
-    transition: 0.4s;
-    border-radius: 50%;
-} */
-
-input:checked + .slider {
-    background-color: #2196f3;
-}
-
-input:checked + .slider:before {
-    transform: translateX(26px);
-}
-
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
-
-#theme-icon {
-    position: absolute;
-    color: #f1c40f;
-    font-size: 18px;
-}
-
-input:checked + .slider #theme-icon {
-    color: #333;
-}
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
