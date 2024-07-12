@@ -451,6 +451,8 @@ span {
 }
 
 .project-container {
+    padding-top: 70px;
+    display: none;
     display: flex;
     flex-direction: column;
     align-items: center;
