@@ -79,7 +79,16 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("assets/img/portfolioimg.png") no-repeat;
+    /* background: url("assets/img/portfolioimg.png") no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+
+.home-img {
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+    /* background: url("assets/img/portfolioimg.png") no-repeat; */
     background-size: cover;
     background-position: center;
 }
