@@ -93,6 +93,7 @@ section {
 }
 .home-content {
     max-width: 60rem;
+    z-index: 1;
 
     h1 {
         font-size: 5.6rem;
