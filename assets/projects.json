@@ -206,13 +206,12 @@
     {
         "id": 10,
         "title": "Bomberman with Java",
-        "category": "Web Development",
-        "description": "Product Rater is an application that allows users to rate different products. It features user authentication and real-time data updates.",
+        "category": "Game Development",
+        "description": "Bomberman with Java is a project that I worked on for my Java programming class. It is a simple game that is based on the classic Bomberman game. The game features a player character that can move around a grid-based map and place bombs to destroy obstacles and enemies. The game has multiple levels with increasing difficulty and a final boss fight. The project was a great learning experience for me and helped me improve my skills in Java FX programming and game development.",
         "link": "https://github.com/R06NV4LDR",
         "technologies": [
-            "Node.js",
-            "Express",
-            "MongoDB"
+            "Java",
+            "JavaFX"
         ],
         "images": [
             {
