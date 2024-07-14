@@ -174,9 +174,7 @@
         "description": "For M122 I wrote these automations scripts to make my life easier. They are written in bash and automate the process of setting up a new project, creating a new component, and deploying the project to GitHub. The scripts are designed to be easy to use and save time when working on projects. The scripts are available on GitHub and can be used by anyone who wants to automate their workflow.",
         "link": "https://github.com/R06NV4LDR/M122_shellscripts",
         "technologies": [
-            "Vue",
-            "Vuex",
-            "Axios"
+            "Bash"
         ],
         "images": [
             {
