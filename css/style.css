@@ -312,15 +312,16 @@ span {
 .about-content {
     text-align: center;
     z-index: 1;
-}
+    margin-bottom: 2rem;
 
-.about-content h3 {
-    font-size: 2.6rem;
-}
+    h3 {
+        font-size: 2.6rem;
+    }
 
-.about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
+    p {
+        font-size: 1.6rem;
+        margin: 2rem 0 3rem;
+    }
 }
 
 .btn-box.btns {
@@ -748,8 +749,6 @@ span {
         padding: 20px; /* Mehr Polsterung */
     }
 }
-
-
 
 @keyframes text-animation {
     0%,
