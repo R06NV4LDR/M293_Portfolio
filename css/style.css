@@ -79,19 +79,20 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("../assets/img/portfolioimg_small.png") no-repeat;
+    background: url("../assets/img/me/portfolioimg_small.png") no-repeat;
     background-size: cover;
     background-position: center;
+    z-index: -2;
 }
 
-.home-img {
+/* .home-img {
     display: flex;
     align-items: center;
     padding: 0 9%;
     background-size: cover;
     background-position: center;
     z-index: -2;
-}
+} */
 .home-content {
     max-width: 60rem;
     z-index: 1;
