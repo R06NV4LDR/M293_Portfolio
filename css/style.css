@@ -248,7 +248,6 @@ section {
     width: 45%;
     height: 100%;
     background: transparent;
-    border: 2px solid red; /* Remove this line after inserting the picture */
     transition: 3s;
 }
 
@@ -686,7 +685,6 @@ span {
         max-width: 100%; /* Volle Breite auf mobilen Geräten */
         margin-top: 3rem; /* Reduzierter Abstand zum Bild */
     }
-
 
     /* Anpassungen für die .bento und .bento-item Elemente */
     .bento .bento-grid {
