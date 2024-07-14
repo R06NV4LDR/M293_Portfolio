@@ -677,6 +677,17 @@ span {
         display: flex;
     }
 
+    .home {
+        background-size: contain; /* Auf mobilen Geräten passende Hintergrundbildgröße */
+        padding: 0 5%; /* Reduzierte Seitenpolsterung */
+    }
+
+    .home-content {
+        max-width: 100%; /* Volle Breite auf mobilen Geräten */
+        margin-top: 3rem; /* Reduzierter Abstand zum Bild */
+    }
+
+
     /* Anpassungen für die .bento und .bento-item Elemente */
     .bento .bento-grid {
         display: flex;
