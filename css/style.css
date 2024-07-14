@@ -344,7 +344,7 @@ span {
 }
 
 .skills-logo {
-    position: absolute;
+    display: flex;
     bottom: 4rem;
     width: 170px;
     display: flex;
