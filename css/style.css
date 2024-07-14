@@ -55,6 +55,7 @@ body {
     color: var(--text-color);
     font-weight: 500;
     transition: 0.3s;
+    margin-left: 3.5rem;
 }
 
 .navbar a:hover,
@@ -631,14 +632,17 @@ span {
     /* text-align: center; */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
+    html {
+        font-size: 56.25%; /* 1rem entspricht 9px */
+    }
+
     header {
         justify-content: space-between;
         align-items: center;
         position: relative;
     }
 
-    /* Versteckt die Navigation standardmäßig */
     .navbar {
         position: absolute;
         display: none;
@@ -649,13 +653,13 @@ span {
         background-color: var(--bg-color);
         width: 100%;
         z-index: 100;
-    }
 
-    .navbar a {
-        padding: 1rem;
-        text-align: center;
-        border-top: 1px solid var(--main-color);
-        width: 100%;
+        .navbar a {
+            padding: 1rem;
+            text-align: center;
+            border-top: 1px solid var(--main-color);
+            width: 100%;
+        }
     }
 
     /* Zeigt das Menü-Icon an */
@@ -724,14 +728,9 @@ span {
     .bento .bento-item {
         padding: 15px; /* Standardpolsterung */
     }
-
-    /* Anpassungen für Navigation und Menüsymbol könnten hier eingefügt werden, falls benötigt */
 }
 
 @media (max-width: 1200px) {
-    html {
-        font-size: 56.25%; /* 1rem entspricht 9px */
-    }
     .bento .bento-grid {
         grid-template-columns: repeat(3, 1fr); /* 3 Spalten für größere Ansichten */
         grid-gap: 20px; /* Etwas mehr Abstand */
