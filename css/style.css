@@ -79,8 +79,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    /* Add real picture*/
-    /* background: url("/assets/RB_5_transparentlong.png") no-repeat; */
+    background: url("/assets/img/portfolio2_background.png") no-repeat;
     background-size: cover;
     background-position: center;
 }
