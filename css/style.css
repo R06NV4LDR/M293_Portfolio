@@ -310,6 +310,7 @@ span {
 
 .about-content {
     text-align: center;
+    z-index: 1;
 }
 
 .about-content h3 {
