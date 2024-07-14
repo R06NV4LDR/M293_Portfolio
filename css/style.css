@@ -327,12 +327,11 @@ span {
 }
 
 .skills {
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: auto;
+    min-height: 100vh;
     gap: 2rem;
     padding-bottom: 5rem;
 
