@@ -679,7 +679,7 @@ span {
     }
 
     .home-img {
-        background-size: contain; /* Auf mobilen Geräten passende Hintergrundbildgröße */
+        background-size: cover; /* Auf mobilen Geräten passende Hintergrundbildgröße */
         padding: 0 5%; /* Reduzierte Seitenpolsterung */
     }
 
