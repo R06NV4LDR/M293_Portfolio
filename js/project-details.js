@@ -57,7 +57,7 @@ function displayProjectDetails(project) {
     if (project.youtubeVideoId) {
         slidesHtml += `
             <div class="mySlides fade">
-                <iframe width="auto" height="315" src="https://www.youtube.com/embed/${project.youtubeVideoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:50%;"></iframe>
+                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/${project.youtubeVideoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;"></iframe>
             </div>
         `;
     }
