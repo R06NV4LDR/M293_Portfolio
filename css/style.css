@@ -751,6 +751,14 @@ span {
     }
 }
 
+@media (min-width: 1921px) {
+    .home {
+        background-size: contain; /* Adjust this value as needed */
+        background-position: top center; /* Example adjustment */
+        background-repeat: no-repeat;
+    }
+}
+
 @keyframes text-animation {
     0%,
     10%,
