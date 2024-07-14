@@ -664,6 +664,7 @@ span {
             text-align: center;
             border-top: 1px solid var(--main-color);
             width: 100%;
+            margin-top: 2rem;
         }
     }
 
