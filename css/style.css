@@ -334,6 +334,11 @@ span {
     min-height: auto;
     gap: 2rem;
     padding-bottom: 5rem;
+
+    p {
+        font-size: 1.6rem;
+        margin: 2rem 0 3rem;
+    }
 }
 
 .skills .skills-row {
