@@ -677,7 +677,7 @@ span {
         display: flex;
     }
 
-    .home {
+    .home-img {
         background-size: contain; /* Auf mobilen Geräten passende Hintergrundbildgröße */
         padding: 0 5%; /* Reduzierte Seitenpolsterung */
     }
