@@ -350,6 +350,23 @@ span {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
+
+    i {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: 0.2rem solid var(--main-color);
+        border-radius: 50%;
+        font-size: 20px;
+        color: var(--main-color);
+        z-index: 1;
+        overflow: hidden;
+        transition: 0.5s;
+    }
 }
 
 /* .skills .skills-row {
