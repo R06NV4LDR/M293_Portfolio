@@ -54,7 +54,6 @@ body {
     font-size: 1.7rem;
     color: var(--text-color);
     font-weight: 500;
-    /* margin-left: 3.5rem; */
     transition: 0.3s;
 }
 
