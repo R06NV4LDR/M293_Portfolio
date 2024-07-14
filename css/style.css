@@ -79,7 +79,6 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    /* background: url("assets/img/portfolioimg.png") no-repeat; */
     background-size: cover;
     background-position: center;
 }
@@ -88,9 +87,9 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    /* background: url("assets/img/portfolioimg.png") no-repeat; */
     background-size: cover;
     background-position: center;
+    z-index: -99;
 }
 .home-content {
     max-width: 60rem;
@@ -476,9 +475,9 @@ span {
 /* } */
 
 /* .project-image { */
-    /* flex: 1; */
-    /* order: 2; */
-    /* max-width: 50%; */
+/* flex: 1; */
+/* order: 2; */
+/* max-width: 50%; */
 /* } */
 
 .project-info {
