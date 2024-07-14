@@ -488,6 +488,7 @@ span {
 }
 
 .project-container {
+    min-height: 100vh;
     padding-top: 70px;
     display: none;
     display: flex;
