@@ -369,7 +369,7 @@ span {
     }
 }
 
-/* .skills .skills-row {
+.skills .skills-row {
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
@@ -386,7 +386,7 @@ span {
 .skillsbox .heading {
     font-size: 2.5rem;
     margin: 0 0 1.5rem 2rem;
-} */
+}
 /* Projects */
 .bento {
     .bento-grid {
