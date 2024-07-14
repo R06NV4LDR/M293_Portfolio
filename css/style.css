@@ -343,6 +343,15 @@ span {
     }
 }
 
+.skills-logo {
+    position: absolute;
+    bottom: 4rem;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
 /* .skills .skills-row {
     display: flex;
     flex-wrap: wrap;
@@ -399,7 +408,6 @@ span {
         align-items: center;
         text-decoration: none;
         color: var(--text-color);
-       
     }
 
     .bento-item:hover img {
@@ -470,7 +478,6 @@ span {
     /* align-items: flex-start;
     max-width: 100%; */
 }
-
 
 .project-info {
     width: 80%;
