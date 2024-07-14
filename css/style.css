@@ -397,12 +397,11 @@ span {
         align-items: center;
         text-decoration: none;
         color: var(--text-color);
-        /* pointer-events: none; */
+       
     }
 
     .bento-item:hover img {
-        /* transform: scale(1.1); */
-        top: -150%;
+        transform: scale(1.5);
     }
 
     .bento-item:nth-child(1) {
@@ -413,7 +412,6 @@ span {
     .bento-item:nth-child(2) {
         grid-column: span 2;
         grid-row: span 1;
-        /* transition: scale(-5); */
     }
 
     .bento-item:nth-child(3) {
