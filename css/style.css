@@ -265,6 +265,7 @@ section {
     gap: 2rem;
     background: transparent /*var(--second-bg-color); */;
     padding-bottom: 6rem;
+    z-index: 1;
 }
 
 span {
